@@ -1,5 +1,7 @@
 {
   "name": "bggeolocation-poc",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

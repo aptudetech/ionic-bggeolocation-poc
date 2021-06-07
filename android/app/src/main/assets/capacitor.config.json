@@ -1,0 +1,13 @@
+{
+	"appId": "com.test.bggeolocation_poc",
+	"appName": "BG Geolocation POC",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "www",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 1500
+		}
+	},
+	"cordova": {}
+}

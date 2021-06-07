@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">BG Geolocation POC</string>
+    <string name="title_activity_main">BG Geolocation POC</string>
+    <string name="package_name">com.test.bggeolocation_poc</string>
+    <string name="custom_url_scheme">com.test.bggeolocation_poc</string>
+  <string name="mauron85_bgloc_account_name">$ACCOUNT_NAME</string>
+  <string name="mauron85_bgloc_account_type">$ACCOUNT_TYPE</string>
+  <string name="mauron85_bgloc_content_authority">$CONTENT_AUTHORITY</string>
+</resources>
