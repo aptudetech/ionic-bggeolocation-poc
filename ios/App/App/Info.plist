@@ -2,10 +2,34 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>string</string>
+				<string>editor</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>$ALWAYS_USAGE_DESCRIPTION</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>$ALWAYS_USAGE_DESCRIPTION</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>$ALWAYS_USAGE_DESCRIPTION</string>
+	<key>NSMotionUsageDescription</key>
+	<string>$MOTION_USAGE_DESCRIPTION</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-        <string>BG Geolocation POC</string>
+	<string>BG Geolocation POC</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
